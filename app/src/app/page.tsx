@@ -1,8 +1,10 @@
+import Self from "./components/self";
+
 export default function Home() {
   return (
     <main>
-      <div className="fixed h-full w-1/2 top-0 left-0 bg-white">
-        <h1 className="text-black">Hello World</h1>
+      <div className="fixed h-full w-1/2 top-0 left-0 bg-slate-900">
+        <Self/>
       </div>
       <div className="relative h-full w-1/2 top-0 left-1/2  bg-red-700">
         <h1 className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod quis viverra nibh cras pulvinar. Diam maecenas ultricies mi eget mauris pharetra. Condimentum vitae sapien pellentesque habitant morbi tristique senectus. Proin libero nunc consequat interdum. Laoreet non curabitur gravida arcu ac tortor. Sodales ut eu sem integer. Fringilla est ullamcorper eget nulla. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Lectus arcu bibendum at varius vel pharetra vel.
