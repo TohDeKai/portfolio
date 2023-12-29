@@ -3,6 +3,7 @@ import Nav from "./components/nav";
 import About from "./components/about";
 import Experience from "./components/experience";
 import Projects from "./components/projects";
+import Misc from "./components/misc";
 
 const menuItems = [
   { title: "About", link: "#" },
@@ -22,6 +23,7 @@ export default function Home() {
         <About />
         <Experience />
         <Projects />
+        <Misc />
         <h1 className="text-white">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod
