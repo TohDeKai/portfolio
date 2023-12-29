@@ -17,7 +17,7 @@ export default function Home() {
         <Nav menuItems={menuItems} />
       </div>
       <div className="relative h-full w-1/2 top-0 left-1/2  bg-red-900">
-      <About/>
+        <About />
         <h1 className="text-white">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod
