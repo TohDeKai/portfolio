@@ -2,10 +2,10 @@ import Self from "./components/self";
 import Nav from "./components/nav";
 
 const menuItems = [
-  { text: "About", link: "#" },
-  { text: "Experience", link: "#" },
-  { text: "Projects", link: "#" },
-  { text: "Misc", link: "#" },
+  { title: "About", link: "#" },
+  { title: "Experience", link: "#" },
+  { title: "Projects", link: "#" },
+  { title: "Misc", link: "#" },
 ];
 
 export default function Home() {

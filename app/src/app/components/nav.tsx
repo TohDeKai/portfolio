@@ -1,10 +1,6 @@
-// Nav.tsx
-
-import React from "react";
-
 // Define the type for the menu item
 type MenuItem = {
-  text: string;
+  title: string;
   link: string;
 };
 
@@ -25,7 +21,7 @@ export default function Nav({ menuItems }: NavProps) {
               >
                 <hr className="w-10 h-0.5 bg-gray-500 border-0 rounded group-hover:w-40 transition-all duration-300 group-hover:bg-gray-50" />
                 <p className="pl-8 text-sm text-gray-500 group-hover:text-gray-50 uppercase">
-                  {menuItem.text}
+                  {menuItem.title}
                 </p>
               </a>
             </li>
