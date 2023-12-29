@@ -1,9 +1,9 @@
 export default function About() {
   return (
     <section>
-      <div className="pt-8 px-4 max-w-screen-xl text-center lg:pt-16 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
+      <div className="px-4 max-w-screen-xl text-center pt-16 pb-8 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
         <div className=" w-full lg:w-auto pr-0 lg:pr-4">
-          <p className="mb-8 text-left font-normal text-gray-500 dark:text-gray-400">
+          <p className="text-left font-normal text-gray-500 dark:text-gray-400">
             Back in 2020, I got an opportunity to develop a landing page during
             my UI/UX internship stint at Calibrate. That was the first time I
             started learning coding and found that I enjoyed it a lot and
