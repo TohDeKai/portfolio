@@ -14,7 +14,7 @@ export default function Experience() {
               MMM YYYY - MMM YYYY
             </h5>
           </div>
-          <p className="mb-3 px-12 font-normal text-gray-400">
+          <div className="mb-3 px-12 font-normal text-md text-gray-400">
             <ul className="list-disc list-inside">
               <li>Point #1</li>
               <li>Point #1</li>
@@ -22,7 +22,36 @@ export default function Experience() {
               <li>Point #1</li>
               <li>Point #1</li>
             </ul>
-          </p>
+          </div>
+          <div className="flex flex-wrap px-12 pb-4">
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+              Skills
+            </span>
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+              Skills
+            </span>
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+              Skills
+            </span>
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+              Skills
+            </span>
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+              Skills
+            </span>
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+              Skills
+            </span>
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+              Skills
+            </span>
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+              Skills
+            </span>
+            <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+              Skills
+            </span>
+          </div>
         </a>
       </div>
     </section>
