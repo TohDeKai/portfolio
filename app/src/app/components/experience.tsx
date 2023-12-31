@@ -7,9 +7,10 @@ export default function Experience() {
           className="rounded-lg shadow md:flex-row w-full bg-slate-900 hover:bg-slate-700"
         >
           <div className="flex justify-between leading-normal px-12 py-4">
-            <h5 className="mb-2 text-lg font-bold tracking-tight text-gray-50">
-              Company - Role
-            </h5>
+            <div className="flex gap-6 mb-2">
+              <p className="text-lg font-bold text-gray-50 my-auto">Company</p>
+              <p className="text-md font-light text-gray-400 my-auto">Role</p>
+            </div>
             <h5 className="text-sm font-thin tracking-tight text-gray-400">
               MMM YYYY - MMM YYYY
             </h5>
