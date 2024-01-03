@@ -17,7 +17,7 @@ export default function Projects() {
             />
           </div>
 
-          <div className="flex flex-col pl-8 py-4 justify-start leading-normal">
+          <div className="flex flex-col pl-8 py-4 justify-start align-top leading-normal">
             <div className="flex flex-row gap-3 mb-2">
               <h5 className=" my-auto text-2xl font-bold tracking-tight text-gray-50">
                 Title
@@ -39,9 +39,38 @@ export default function Projects() {
               </svg>
             </div>
 
-            <p className="mb-3 font-normal text-gray-400">
+            <p className="mb-3 text-left font-normal text-gray-400">
               Project Description
             </p>
+            <div className="flex flex-wrap pb-4">
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+                Skills
+              </span>
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+                Skills
+              </span>
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+                Skills
+              </span>
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+                Skills
+              </span>
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+                Skills
+              </span>
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+                Skills
+              </span>
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+                Skills
+              </span>
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+                Skills
+              </span>
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg">
+                Skills
+              </span>
+            </div>
           </div>
         </a>
       </div>
