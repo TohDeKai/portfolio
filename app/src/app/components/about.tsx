@@ -7,17 +7,17 @@ export default function About() {
             Back in 2020, I got an opportunity to develop a landing page during
             my UI/UX internship stint at Calibrate. That was the first time I
             started learning coding and found that I enjoyed it a lot and
-            decided to pursue a bachelor's of computing.
+            decided to pursue a bachelor&apos;s of computing.
             <br></br>
             <br></br>
-            Since then, I've continued exploring different fields through
+            Since then, I&apos;ve continued exploring different fields through
             several roles - Product Development Intern at Skilio, Project
             Management Intern at Zalora, Software Engineering Intern at GovTech,
             Frontend Developer at NUS institute of data science and even a
             Coding Instructor role at A Posteriori.
             <br></br>
             <br></br>
-            When I'm not at my desk, I like to keep myself busy through an
+            When I&apos;m not at my desk, I like to keep myself busy through an
             active lifestyle - aiming to complete a sub-5 hour marathon in 2024
           </p>
         </div>
