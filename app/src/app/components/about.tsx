@@ -11,10 +11,8 @@ export default function About() {
             <br></br>
             <br></br>
             Since then, I&apos;ve continued exploring different fields through
-            several roles - Product Development Intern at Skilio, Project
-            Management Intern at Zalora, Software Engineering Intern at GovTech,
-            Frontend Developer at NUS institute of data science and even a
-            Coding Instructor role at A Posteriori.
+            several roles - from project management, UI/UX to software
+            engineering.
             <br></br>
             <br></br>
             When I&apos;m not at my desk, I like to keep myself busy through an
