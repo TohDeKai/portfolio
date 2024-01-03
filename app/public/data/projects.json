@@ -1,7 +1,7 @@
 [
   {
     "title": "HDB Pricing Visualisation",
-    "imageSrc": "/static/images/image-4.jpg",
+    "imageSrc": "/static/images/landscape-photography-tips-yosemite-valley-feature.jpg",
     "description": "The project aims to help people make meaningful decisions regarding HDB transaction prices by providing them with a simple and easy way to compare and filter transactions and visualise the data.",
     "skills": ["Python", "NumPy", "Streamlit", "pandas"],
     "link": "https://github.com/TohDeKai/hdbdataviz"

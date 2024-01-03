@@ -12,21 +12,27 @@ interface ProjectData {
 export default function Projects() {
   return (
     <section id="projects">
-      <div className="px-4 max-w-screen-xl text-center pt-16 pb-8 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
+      <div className="px-4 max-w-screen-xl py-8 pb-8 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
         {projectsData.map((project: ProjectData, index: number) => (
           <a
             key={index}
             href={project.link}
             target="_blank"
-            className="flex flex-row w-full px-12 rounded-lg bg-slate-900 hover:bg-slate-700"
+            className="lg:flex flex-row w-full px-4 lg:px-12 rounded-lg bg-slate-900 hover:bg-slate-700"
           >
-            <div className="object-cover py-4 rounded-t-lg h-auto rounded-none rounded-s-lg">
-              <Image src={project.imageSrc} alt="" width={100} height={100} />
+            <div className=" object-cover py-4 ">
+              <Image
+                src={project.imageSrc}
+                alt=""
+                width={500}
+                height={500}
+                className="rounded-lg"
+              />
             </div>
 
-            <div className="flex flex-col pl-8 py-4 justify-start align-top leading-normal">
+            <div className="flex flex-col lg:pl-8 py-4 justify-start align-top leading-normal">
               <div className="flex flex-row gap-3 mb-2">
-                <h5 className="my-auto text-2xl font-bold tracking-tight text-gray-50">
+                <h5 className=" text-2xl font-bold tracking-tight text-gray-50">
                   {project.title}
                 </h5>
                 <svg
@@ -53,7 +59,7 @@ export default function Projects() {
                 {project.skills.map((skill, skillIndex) => (
                   <span
                     key={skillIndex}
-                    className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg"
+                    className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-4 py-1 my-2 rounded-lg"
                   >
                     {skill}
                   </span>

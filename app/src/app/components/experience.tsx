@@ -19,10 +19,10 @@ export default function Experience() {
             key={index}
             href={experience.link}
             target="_blank"
-            className="rounded-lg shadow md:flex-row w-full bg-slate-900 hover:bg-slate-700"
+            className="py-4 rounded-lg shadow md:flex-row w-full lg:py-0 bg-slate-900 hover:bg-slate-700"
           >
-            <div className="flex justify-between leading-normal px-12 py-4">
-              <div className="flex gap-4">
+            <div className="flex justify-between leading-normal px-4 lg:px-12 my-2 py-4">
+              <div className="lg:flex gap-4">
                 <p className="text-lg font-bold text-gray-50 my-auto">
                   {experience.company}
                 </p>
@@ -34,18 +34,18 @@ export default function Experience() {
                 {experience.duration}
               </h5>
             </div>
-            <div className="mb-3 px-12 font-normal text-sm text-gray-400">
+            <div className="mb-3 px-4 lg:px-12 font-normal text-sm text-gray-400">
               <ul className="list-disc list-inside space-y-2">
                 {experience.points.map((point, pointIndex) => (
                   <li key={pointIndex}>{point}</li>
                 ))}
               </ul>
             </div>
-            <div className="flex flex-wrap px-12 pb-4">
+            <div className="flex flex-wrap px-4 lg:px-12 pb-4">
               {experience.skills.map((skill, skillIndex) => (
                 <span
                   key={skillIndex}
-                  className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-4 py-1 my-2 rounded-lg"
+                  className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-4 py-1 my-2 rounded-lg"
                 >
                   {skill}
                 </span>

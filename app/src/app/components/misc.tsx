@@ -15,7 +15,7 @@ export default function Misc() {
             key={index}
             className="rounded-lg shadow md:flex-row w-full bg-slate-900 hover:bg-slate-700"
           >
-            <div className="flex justify-between leading-normal px-12 py-2">
+            <div className="flex justify-between leading-normal px-4 py-2 lg:px-16">
               <div className="flex gap-6 ">
                 <p className="text-sm font-bold text-gray-50 my-auto">
                   {miscItem.title}
