@@ -12,7 +12,7 @@ export default function Nav({ menuItems }: NavProps) {
   return (
     <section>
       <div className="py-8 px-4 max-w-screen-xl lg:py-16 lg:px-12  2xl:ml-72 ">
-        <ul className="space-y text-sm font-medium text-gray-500 dark:text-gray-400 md:me-4 mb-4 md:mb-0">
+        <ul className="space-y px-12 text-sm font-medium text-gray-500 dark:text-gray-400 md:me-4 mb-4 md:mb-0">
           {menuItems.map((menuItem, index) => (
             <li key={index} className="group">
               <a
