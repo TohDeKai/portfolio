@@ -6,7 +6,7 @@ export default function Projects() {
       <div className="px-4 max-w-screen-xl py-8 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
         <a
           href="#"
-          className="flex flex-row w-full bg-white border border-gray-200 rounded-lg "
+          className="flex flex-row w-full rounded-lg bg-slate-900 hover:bg-slate-700"
         >
           <div className="object-cover px-4 py-4 rounded-t-lg h-auto rounded-none rounded-s-lg">
             <Image src="/static/image-4.jpg" alt="" width={100} height={100} />
@@ -14,11 +14,11 @@ export default function Projects() {
 
           <div className="flex flex-col pl-4 py-4 justify-start leading-normal">
             <div className="flex flex-row gap-3 mb-2">
-              <h5 className=" my-auto text-2xl font-bold tracking-tight text-gray-900">
+              <h5 className=" my-auto text-2xl font-bold tracking-tight text-gray-50">
                 Title
               </h5>
               <svg
-                className="w-[14px] h-[14px] my-auto text-gray-800 "
+                className="w-[14px] h-[14px] my-auto text-gray-50 "
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -34,7 +34,7 @@ export default function Projects() {
               </svg>
             </div>
 
-            <p className="mb-3 font-normal text-gray-700">
+            <p className="mb-3 font-normal text-gray-400">
               Project Description
             </p>
           </div>
