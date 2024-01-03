@@ -14,6 +14,13 @@ export default function Experience() {
   return (
     <section id="experience">
       <div className="px-4 max-w-screen-xl py-8 lg:px-12 2xl:mr-54 flex flex-col  items-start lg:items-center">
+        <div className="flex items-center w-full px-4 py-2">
+          <h1 className="flex-shrink-0 font-bold text-3xl lg:text-2xl">
+            Where I've Worked
+          </h1>
+          <hr className="border-t-2 border-gray-600 my-auto ml-4 flex-grow" />
+        </div>
+
         {experienceData.map((experience: ExperienceData, index: number) => (
           <a
             key={index}
