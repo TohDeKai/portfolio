@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section>
+    <section id="about">
       <div className="px-4 max-w-screen-xl text-center pt-16 pb-8 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
         <div className=" w-full lg:w-auto pr-0 lg:pr-4 px-12">
           <p className="text-left font-normal text-gray-500 dark:text-gray-400">

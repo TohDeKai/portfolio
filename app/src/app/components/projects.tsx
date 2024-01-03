@@ -11,7 +11,7 @@ interface ProjectData {
 
 export default function Projects() {
   return (
-    <section>
+    <section id="projects">
       <div className="px-4 max-w-screen-xl text-center pt-16 pb-8 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
         {projectsData.map((project: ProjectData, index: number) => (
           <a

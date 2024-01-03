@@ -6,10 +6,10 @@ import Projects from "./components/projects";
 import Misc from "./components/misc";
 
 const menuItems = [
-  { title: "About", link: "#" },
-  { title: "Experience", link: "#" },
-  { title: "Projects", link: "#" },
-  { title: "Misc", link: "#" },
+  { title: "About", link: "#about" },
+  { title: "Experience", link: "#experience" },
+  { title: "Projects", link: "#projects" },
+  { title: "Misc", link: "#misc" },
 ];
 
 export default function Home() {

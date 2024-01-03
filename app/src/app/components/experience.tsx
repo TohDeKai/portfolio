@@ -12,7 +12,7 @@ interface ExperienceData {
 
 export default function Experience() {
   return (
-    <section>
+    <section id="experience">
       <div className="px-4 max-w-screen-xl py-8 lg:px-12 2xl:mr-54 flex flex-col  items-start lg:items-center">
         {experienceData.map((experience: ExperienceData, index: number) => (
           <a

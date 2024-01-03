@@ -8,7 +8,7 @@ interface MiscData {
 
 export default function Misc() {
   return (
-    <section>
+    <section id="misc">
       <div className="px-4 max-w-screen-xl py-8 lg:px-12 2xl:mr-54 flex flex-col items-start lg:items-center">
         {miscData.map((miscItem: MiscData, index: number) => (
           <a
