@@ -16,7 +16,7 @@ export default function Experience() {
       <div className="px-4 max-w-screen-xl py-8 lg:px-12 2xl:mr-54 flex flex-col  items-start lg:items-center">
         <div className="flex items-center w-full px-4 py-2">
           <h1 className="flex-shrink-0 font-bold text-3xl text-blue-700 lg:text-2xl">
-            Where I've Worked
+            Where I&apos;ve Worked
           </h1>
           <hr className=" border-t-2 border-blue-300 my-auto ml-4 flex-grow" />
         </div>

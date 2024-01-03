@@ -15,7 +15,7 @@ export default function Projects() {
       <div className="px-4 max-w-screen-xl py-8 pb-8 lg:px-12 2xl:mr- items-start lg:items-center">
         <div className="flex items-center w-full px-4 py-2">
           <h1 className="flex-shrink-0 font-bold text-3xl lg:text-2xl text-blue-500">
-            What I've Worked On
+            What I&apos;ve Worked On
           </h1>
           <hr className="border-t-2 border-blue-300 my-auto ml-4 flex-grow" />
         </div>
