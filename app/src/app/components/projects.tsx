@@ -3,16 +3,16 @@ import Image from "next/image";
 export default function Projects() {
   return (
     <section>
-      <div className="px-4 max-w-screen-xl py-8 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
+      <div className="px-4 max-w-screen-xl text-center pt-16 pb-8 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
         <a
           href="#"
-          className="flex flex-row w-full rounded-lg bg-slate-900 hover:bg-slate-700"
+          className="flex flex-row w-full px-12 rounded-lg bg-slate-900 hover:bg-slate-700"
         >
-          <div className="object-cover px-4 py-4 rounded-t-lg h-auto rounded-none rounded-s-lg">
+          <div className="object-cover py-4 rounded-t-lg h-auto rounded-none rounded-s-lg">
             <Image src="/static/image-4.jpg" alt="" width={100} height={100} />
           </div>
 
-          <div className="flex flex-col pl-4 py-4 justify-start leading-normal">
+          <div className="flex flex-col pl-8 py-4 justify-start leading-normal">
             <div className="flex flex-row gap-3 mb-2">
               <h5 className=" my-auto text-2xl font-bold tracking-tight text-gray-50">
                 Title
