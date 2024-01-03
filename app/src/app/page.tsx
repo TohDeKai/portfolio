@@ -15,13 +15,13 @@ const menuItems = [
 export default function Home() {
   return (
     <main>
-      <div className="bg-slate-900 w-full lg:fixed lg:w-1/2 lg:h-full lg:top-0 lg:left-0 ">
+      <div className=" bg-slate-950 w-full lg:fixed lg:w-1/2 lg:h-full lg:top-0 lg:left-0 ">
         <Self />
         <div className="hidden lg:block">
           <Nav menuItems={menuItems} />
         </div>
       </div>
-      <div className="bg-slate-900 w-full lg:relative h-full lg:w-1/2 lg:top-0 lg:left-1/2  ">
+      <div className="bg-slate-950 w-full lg:relative h-full lg:w-1/2 lg:top-0 lg:left-1/2  ">
         <About />
         <Experience />
         <Projects />

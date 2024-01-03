@@ -14,10 +14,10 @@ export default function Projects() {
     <section id="projects">
       <div className="px-4 max-w-screen-xl py-8 pb-8 lg:px-12 2xl:mr- items-start lg:items-center">
         <div className="flex items-center w-full px-4 py-2">
-          <h1 className="flex-shrink-0 font-bold text-3xl lg:text-2xl">
+          <h1 className="flex-shrink-0 font-bold text-3xl lg:text-2xl text-blue-500">
             What I've Worked On
           </h1>
-          <hr className="border-t-2 border-gray-600 my-auto ml-4 flex-grow" />
+          <hr className="border-t-2 border-blue-300 my-auto ml-4 flex-grow" />
         </div>
         <div className="flex fol col lg:flex-row">
           {projectsData.map((project: ProjectData, index: number) => (
@@ -25,7 +25,7 @@ export default function Projects() {
               key={index}
               href={project.link}
               target="_blank"
-              className="lg:flex flex-row w-full px-4 lg:px-12 rounded-lg bg-slate-900 hover:bg-slate-700"
+              className="lg:flex flex-row w-full px-4 lg:px-12 rounded-lg group hover:bg-slate-700 transition-all duration-300"
             >
               <div className=" object-cover py-4 ">
                 <Image
@@ -39,11 +39,11 @@ export default function Projects() {
 
               <div className="flex flex-col lg:pl-8 py-4 justify-start align-top leading-normal">
                 <div className="flex flex-row gap-3 mb-2">
-                  <h5 className=" text-2xl font-bold tracking-tight text-gray-50">
+                  <h5 className=" text-2xl font-bold tracking-tight text-slate-50 group-hover:text-blue-500 transition-all duration-300">
                     {project.title}
                   </h5>
                   <svg
-                    className="w-[14px] h-[14px] my-auto text-gray-50 "
+                    className="w-[14px] h-[14px] my-auto text-slate-50 group-hover:text-blue-300 transition-all duration-300"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -59,14 +59,14 @@ export default function Projects() {
                   </svg>
                 </div>
 
-                <p className="mb-3 text-left font-normal text-gray-400">
+                <p className="mb-3 text-left font-normal text-slate-400 group-hover:text-slate-50 transition-all duration-300">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap pb-4">
                   {project.skills.map((skill, skillIndex) => (
                     <span
                       key={skillIndex}
-                      className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-4 py-1 my-2 rounded-lg"
+                      className="border-blue-300 border-2 text-blue-300 text-xs font-medium me-2 px-4 py-1 my-2 rounded-lg group-hover:text-slate-900 group-hover:bg-blue-300 transition-all duration-300"
                     >
                       {skill}
                     </span>
