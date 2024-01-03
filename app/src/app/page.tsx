@@ -15,11 +15,11 @@ const menuItems = [
 export default function Home() {
   return (
     <main>
-      <div className="fixed w-1/2 h-full top-0 left-0 bg-slate-900">
+      <div className="bg-slate-900 w-full lg:fixed lg:w-1/2 lg:h-full lg:top-0 lg:left-0 ">
         <Self />
         <Nav menuItems={menuItems} />
       </div>
-      <div className="relative h-full w-1/2 top-0 left-1/2  bg-slate-900">
+      <div className="bg-slate-900 w-full lg:relative h-full lg:w-1/2 lg:top-0 lg:left-1/2  ">
         <About />
         <Experience />
         <Projects />
