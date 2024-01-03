@@ -7,6 +7,7 @@ interface ExperienceData {
   duration: string;
   points: string[];
   skills: string[];
+  link: string;
 }
 
 export default function Experience() {
@@ -16,7 +17,8 @@ export default function Experience() {
         {experienceData.map((experience: ExperienceData, index: number) => (
           <a
             key={index}
-            href="#"
+            href={experience.link}
+            target="_blank"
             className="rounded-lg shadow md:flex-row w-full bg-slate-900 hover:bg-slate-700"
           >
             <div className="flex justify-between leading-normal px-12 py-4">

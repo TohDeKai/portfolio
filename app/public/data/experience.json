@@ -8,7 +8,8 @@
       "Conducted website maintenance and effectively resolved bugs to ensure smooth functionality.",
       "Introduced Git as a source-control system and Trello for more efficient project management."
     ],
-    "skills": ["HTML", "CSS", "JavaScript"]
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "link": "https://ids.nus.edu.sg"
   },
   {
     "company": "GovTech",
@@ -20,7 +21,8 @@
       "Built REST APIs using FastAPI, integrating data from DynamoDB, to create a tailored EDM editor essential for internal teams.",
       "Led Project Latios, employing Python, FastAPI, and DynamoDB, to generate trackable URLs with insightful data like click-through rates."
     ],
-    "skills": ["Python", "AWS", "MongoDB", "FastAPI"]
+    "skills": ["Python", "AWS", "MongoDB", "FastAPI"],
+    "link": "https://www.tech.gov.sg"
   },
   {
     "company": "ZALORA",
@@ -30,7 +32,8 @@
       "Improved productivity through user interviews and research, optimizing onboarding practices.",
       "Enhanced organizational efficiency by transferring vital data from Google Sheets to Jira."
     ],
-    "skills": ["Jira", "Google Sheets"]
+    "skills": ["Jira", "Google Sheets"],
+    "link": "https://corporate.zalora.com"
   },
   {
     "company": "Skilio",
@@ -42,7 +45,8 @@
       "Produced assets including product mockups to support marketing initiatives.",
       "Engaged in numerous user interviews and usability tests to extract insights for product enhancement."
     ],
-    "skills": ["WordPress", "Elementor", "Figma", "HTML", "CSS", "JavaScript"]
+    "skills": ["WordPress", "Elementor", "Figma", "HTML", "CSS", "JavaScript"],
+    "link": "https://skilio.co"
   },
   {
     "company": "Lexly (Formerly Calibrate)",
@@ -52,6 +56,7 @@
       "Developed landing page using HTML and CSS to attract more users.",
       "Spearheaded design and development of high-fidelity prototype of mobile application with Figma."
     ],
-    "skills": ["Figma", "HTML", "CSS", "JavaScript"]
+    "skills": ["Figma", "HTML", "CSS", "JavaScript"],
+    "link": "https://lexlyhealth.webflow.io"
   }
 ]
