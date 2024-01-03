@@ -28,7 +28,7 @@ export default function Misc() {
                     {miscItem.title}
                   </p>
                 </div>
-                <h5 className="text-xs font-thin tracking-tight text-slate-400 group-hover:text-slate-50 transition-all duration-30">
+                <h5 className="text-xs font-extralight tracking-tight text-slate-400 group-hover:text-slate-50 transition-all duration-30">
                   {miscItem.date}
                 </h5>
               </div>
