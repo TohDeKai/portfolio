@@ -1,0 +1,57 @@
+[
+  {
+    "company": "NUS IDS",
+    "role": "Frontend Developer",
+    "duration": "JUN 2023 - JAN 2024",
+    "points": [
+      "Created and designed new mobile-responsive web pages",
+      "Conducted website maintenance and effectively resolved bugs to ensure smooth functionality.",
+      "Introduced Git as a source-control system and Trello for more efficient project management."
+    ],
+    "skills": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "company": "GovTech",
+    "role": "Software Engineer Intern",
+    "duration": "MAY 2022 - JAN 2023",
+    "points": [
+      "Collaborated with a team of 2 engineers to develop a personalized newsletter system, utilized by multiple government agencies: leveraged AWS technologies, Python, and MongoDB for seamless implementation.",
+      "Automated web crawling across 20+ news sites daily, streamlining article processing into a uniform format.",
+      "Built REST APIs using FastAPI, integrating data from DynamoDB, to create a tailored EDM editor essential for internal teams.",
+      "Led Project Latios, employing Python, FastAPI, and DynamoDB, to generate trackable URLs with insightful data like click-through rates."
+    ],
+    "skills": ["Python", "AWS", "MongoDB", "FastAPI"]
+  },
+  {
+    "company": "ZALORA",
+    "role": "Project Management Intern",
+    "duration": "SEP 2021 - DEC 2021",
+    "points": [
+      "Improved productivity through user interviews and research, optimizing onboarding practices.",
+      "Enhanced organizational efficiency by transferring vital data from Google Sheets to Jira."
+    ],
+    "skills": ["Jira", "Google Sheets"]
+  },
+  {
+    "company": "Skilio",
+    "role": "Product Development Intern",
+    "duration": "APR 2021 - JUL 2021",
+    "points": [
+      "Created a landing page using Figma and Elementor, combining design and development expertise.",
+      "Spearheaded the redesign of a web app.",
+      "Produced assets including product mockups to support marketing initiatives.",
+      "Engaged in numerous user interviews and usability tests to extract insights for product enhancement."
+    ],
+    "skills": ["WordPress", "Elementor", "Figma", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    "company": "Lexly (Formerly Calibrate)",
+    "role": "UX/UI Design Intern",
+    "duration": "AUG 2020 - FEB 2021",
+    "points": [
+      "Developed landing page using HTML and CSS to attract more users.",
+      "Spearheaded design and development of high-fidelity prototype of mobile application with Figma."
+    ],
+    "skills": ["Figma", "HTML", "CSS", "JavaScript"]
+  }
+]
