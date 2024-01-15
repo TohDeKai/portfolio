@@ -4,11 +4,11 @@ export default function SocMed() {
   return (
     <section>
       <div className="px-4 max-w-screen-xl text-center lg:px-12 2xl:ml-72 flex ">
-        <div className="flex space-x-6 w-full px-4 pt-8 lg:pt-0 lg:px-12 lg:w-auto pr-0 lg:pr-4">
+        <div className="flex space-x-6 w-full px-4 pt-8 lg:pt-0 lg:px-12 lg:w-auto pr-0 lg:pr-4 ">
           {" "}
           <Link href="https://github.com/TohDeKai" target="_blank">
             <svg
-              className="w-[28px] h-[28px] md:w-[32px] md:h-[32px] text-white"
+              className="w-[28px] h-[28px] md:w-[32px] md:h-[32px] text-slate-500 hover:text-blue-500 transition-all duration-300"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -23,7 +23,7 @@ export default function SocMed() {
           </Link>
           <Link href="https://www.linkedin.com/in/tohdekai/" target="_blank">
             <svg
-              className="w-[28px] h-[28px] md:w-[32px] md:h-[32px] text-white"
+              className="w-[28px] h-[28px] md:w-[32px] md:h-[32px] text-slate-500 hover:text-blue-500 transition-all duration-300"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
