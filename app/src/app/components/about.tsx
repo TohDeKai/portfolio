@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id="about">
-      <div className="px-4 max-w-screen-xl text-center pt-16 pb-8 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
+      <div className="px-4 max-w-screen-xl text-center pt-8 pb-8 md:pt-16 lg:px-12 2xl:mr-54 flex flex-col lg:flex-row items-start lg:items-center">
         <div className=" w-full px-4 lg:w-auto pr-0 lg:pr-4 lg:px-12">
           <p className="text-left font-normal text-gray-500 dark:text-gray-400">
             Back in 2020, I got an opportunity to develop a landing page during
