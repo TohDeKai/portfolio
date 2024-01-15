@@ -14,7 +14,7 @@ const menuItems = [
 
 export default function Home() {
   return (
-    <main>
+    <main className="selection:bg-cyan-400 selection:text-slate-700">
       <div className=" bg-slate-950 w-full lg:fixed lg:w-1/2 lg:h-full lg:top-0 lg:left-0 ">
         <Self />
         <div className="hidden lg:block">

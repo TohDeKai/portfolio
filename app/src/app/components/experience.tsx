@@ -28,18 +28,19 @@ export default function Experience() {
             target="_blank"
             className="py-4 rounded-lg shadow md:flex-row w-full lg:py-0 transition-all duration-300 group hover:bg-slate-700"
           >
-            <div className="flex justify-between leading-normal px-4 lg:px-12 my-2 py-4">
-              <div className="lg:flex gap-4">
-                <p className="text-lg font-bold text-slate-50 my-auto group-hover:text-blue-500 transition-all duration-300">
-                  {experience.company}
-                </p>
+            <div className="flex flex-col lg:flex-row justify-between leading-normal px-4 lg:px-12 my-2 py-4">
+              <p className="text-lg whitespace-nowrap font-bold text-slate-50 my-auto group-hover:text-blue-500 transition-all duration-300">
+                {experience.company}
+              </p>
+              <div className="flex w-full justify-between lg:pl-4">
                 <p className="text-sm font-light text-slate-400 my-auto group-hover:text-blue-300 transition-all duration-300">
                   {experience.role}
                 </p>
+
+                <h5 className="text-xs font-extralight tracking-tight text-slate-400 my-auto group-hover:text-slate-50 transition-all duration-300">
+                  {experience.duration}
+                </h5>
               </div>
-              <h5 className="text-xs font-extralight tracking-tight text-slate-400 my-auto group-hover:text-slate-50 transition-all duration-300">
-                {experience.duration}
-              </h5>
             </div>
             <div className="mb-3 px-4 lg:px-12 font-normal text-sm text-slate-400 group-hover:text-slate-50 transition-all duration-300">
               <ul className="list-disc list-inside space-y-2">
