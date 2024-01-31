@@ -13,8 +13,8 @@ interface ExperienceData {
 export default function Experience() {
   return (
     <section id="experience">
-      <div className="px-4 max-w-screen-xl py-8 lg:px-12 2xl:mr-54 flex flex-col  items-start lg:items-center">
-        <div className="flex items-center w-full px-4 py-2">
+      <div className="w-full px-8 py-4 lg:pt-16 flex flex-col">
+        <div className="flex pb-4">
           <h1 className="flex-shrink-0 font-bold text-3xl text-blue-700 lg:text-2xl">
             Where I&apos;ve Worked
           </h1>
@@ -26,9 +26,9 @@ export default function Experience() {
             key={index}
             href={experience.link}
             target="_blank"
-            className="py-4 rounded-lg shadow md:flex-row w-full lg:py-0 transition-all duration-300 group hover:bg-slate-700"
+            className="py-2 rounded-lg shadow md:flex-row w-full lg:py-0 transition-all duration-300 group hover:bg-slate-700"
           >
-            <div className="flex flex-col lg:flex-row justify-between leading-normal px-4 lg:px-12 my-2 py-4">
+            <div className="flex flex-col lg:flex-row justify-between leading-normal lg:px-12 my-2 py-2">
               <p className="text-lg whitespace-nowrap font-bold text-slate-50 my-auto group-hover:text-blue-500 transition-all duration-300">
                 {experience.company}
               </p>
@@ -42,14 +42,14 @@ export default function Experience() {
                 </h5>
               </div>
             </div>
-            <div className="mb-3 px-4 lg:px-12 font-normal text-sm text-slate-400 group-hover:text-slate-50 transition-all duration-300">
+            <div className="mb-3 lg:px-12 font-normal text-sm text-slate-400 group-hover:text-slate-50 transition-all duration-300">
               <ul className="list-disc list-inside space-y-2">
                 {experience.points.map((point, pointIndex) => (
                   <li key={pointIndex}>{point}</li>
                 ))}
               </ul>
             </div>
-            <div className="flex flex-wrap px-4 lg:px-12 pb-4">
+            <div className="flex flex-wrap lg:px-12 pb-4">
               {experience.skills.map((skill, skillIndex) => (
                 <span
                   key={skillIndex}

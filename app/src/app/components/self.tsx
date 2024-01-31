@@ -1,7 +1,7 @@
 export default function Self() {
   return (
     <section className="flex justify-end">
-      <div className="w-full px-8 pt-16 py-4 lg:pt-32 flex flex-col">
+      <div className="w-full md:pr-32 px-8 pt-16 py-4 lg:pt-32 flex flex-col">
         <h1 className="mb-4 lg:text-right text-4xl font-extrabold tracking-tight leading-none text-blue-700 md:text-5xl lg:text-6xl">
           Toh De Kai
         </h1>
