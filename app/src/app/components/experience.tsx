@@ -15,7 +15,7 @@ export default function Experience() {
     <section id="experience">
       <div className="w-full px-8 py-4 lg:pt-16 flex flex-col">
         <div className="flex pb-4">
-          <h1 className="flex-shrink-0 font-bold text-3xl text-blue-700 lg:text-2xl">
+          <h1 className="flex-shrink-0 font-bold text-2xl text-blue-700">
             Where I&apos;ve Worked
           </h1>
           <hr className=" border-t-2 border-blue-300 my-auto ml-4 flex-grow" />
