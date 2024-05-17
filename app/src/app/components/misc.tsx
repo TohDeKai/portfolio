@@ -11,7 +11,7 @@ export default function Misc() {
     <section id="misc">
       <div className="px-4 max-w-screen-xl py-8 lg:px-12 2xl:mr-54 items-start lg:items-center ">
         <div className="flex items-center w-full px-4 py-2">
-          <h1 className="flex-shrink-0 font-bold text-3xl lg:text-2xl text-blue-500">
+          <h1 className="flex-shrink-0 font-bold text-2xl  text-blue-500">
             Icing On Top
           </h1>
           <hr className="border-t-2 border-blue-300 my-auto ml-4 flex-grow" />
