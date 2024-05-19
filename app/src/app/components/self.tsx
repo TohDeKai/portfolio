@@ -6,10 +6,10 @@ export default function Self() {
           Toh De Kai
         </h1>
         <h2 className="mb-4 lg:text-right text-2xl font-medium tracking-normal leading-none text-white md:text-3xl lg:text-4xl">
-          Aspiring Software Engineer
+          Product Driven Engineer
         </h2>
         <p className="lg:mb-8 lg:text-right text-lg font-normal text-slate-400 lg:text-xl">
-          Junior at the National University of Singapore
+          Creating intuitive and impactful digital solutions
         </p>
       </div>
     </section>
