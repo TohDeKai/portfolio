@@ -11,7 +11,8 @@ export default function About() {
         <p className="text-left font-normal text-gray-500 dark:text-gray-400">
           Back in 2020, I had the opportunity to develop a landing page during
           my UI/UX internship at Calibrate. This experience ignited my passion
-          for coding, leading me to pursue a Bachelor's degree in Computing.
+          for coding, leading me to pursue a Bachelor&apos;s degree in
+          Computing.
           <br></br>
           <br></br>
           Since then, I have gained diverse experience across various roles,
