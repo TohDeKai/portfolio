@@ -5,6 +5,7 @@ import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Misc from "./components/misc";
 import SocMed from "./components/socmed";
+import Footer from "./components/footer";
 
 const menuItems = [
   { title: "About", link: "#about" },
@@ -31,6 +32,7 @@ export default function Home() {
           <Experience />
           <Projects />
           <Misc />
+          <Footer />
         </div>
       </div>
     </main>
