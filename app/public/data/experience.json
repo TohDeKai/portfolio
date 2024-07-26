@@ -4,7 +4,11 @@
     "role": "Software Engineer Intern",
     "duration": "FEB 2024 - PRESENT",
     "points": [
-      "Joining a startup as part of the NUS Overseas Colleges Program (Paris) "
+      "Spearheaded the development of a partner dashboard, collaborating closely with the data team to integrate Snowflake queries into API endpoints and build a dashboard using Astro, React, and Tailwind CSS.",
+      "Refactored API endpoints to use functions from the core library and migrated from a monolithic server to a microservice architecture.",
+      "Build features for existing tools such as introducing additional filters, and making additional data visualisation using Chart.js.",
+      "Implemented UI and created reusable components for multiple products using React, TypeScript, and TailwindCSS.",
+      "Implemented and deployed cron jobs and web services on Render."
     ],
     "skills": ["TypeScript", "Node.js", "Tailwind CSS"],
     "link": "https://www.kovalee.app"
@@ -26,10 +30,10 @@
     "role": "Software Engineer Intern",
     "duration": "MAY - JAN 2023",
     "points": [
-      "Collaborated with a team of 2 engineers to develop a personalized newsletter system, utilized by multiple government agencies: leveraged AWS technologies, Python, and MongoDB for seamless implementation.",
-      "Automated web crawling across 20+ news sites daily, streamlining article processing into a uniform format.",
-      "Built REST APIs using FastAPI, integrating data from DynamoDB, to create a tailored EDM editor essential for internal teams.",
-      "Led Project Latios, employing Python, FastAPI, and DynamoDB, to generate trackable URLs with insightful data like click-through rates."
+      "Led Project Latios, employing Python, FastAPI, and DynamoDB, to generate trackable URLs with insightful data like click-through rates.",
+      "Collaborated with a team of 2 engineers to develop a personalized newsletter system, utilized by multiple government agencies. Leveraged AWS technologies, Python, and MongoDB for seamless implementation.",
+      "Orchestrated automated web crawling across 20+ news sites daily by building Scarpy spiders to crawl news headlines and articles and streamlined article processing into a uniform format using NLP techniques like lemmatization, tokenization tagging, and stopword removal.",
+      "Built REST APIs using FastAPI, integrating data from DynamoDB, to create a tailored EDM editor essential for internal teams."
     ],
     "skills": ["Python", "AWS", "MongoDB", "FastAPI"],
     "link": "https://www.tech.gov.sg"
