@@ -32,7 +32,7 @@
     "points": [
       "Led Project Latios, employing Python, FastAPI, and DynamoDB, to generate trackable URLs with insightful data like click-through rates.",
       "Collaborated with a team of 2 engineers to develop a personalized newsletter system, utilized by multiple government agencies. Leveraged AWS technologies, Python, and MongoDB for seamless implementation.",
-      "Orchestrated automated web crawling across 20+ news sites daily by building Scarpy spiders to crawl news headlines and articles and streamlined article processing into a uniform format using NLP techniques like lemmatization, tokenization tagging, and stopword removal.",
+      "Orchestrated automated web crawling across 20+ news sites daily by building Scrapy spiders to crawl news headlines and articles and streamlined article processing into a uniform format using NLP techniques like lemmatization, tokenization tagging, and stopword removal.",
       "Built REST APIs using FastAPI, integrating data from DynamoDB, to create a tailored EDM editor essential for internal teams."
     ],
     "skills": ["Python", "AWS", "MongoDB", "FastAPI"],
