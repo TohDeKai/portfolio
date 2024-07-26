@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function SocMed() {
   return (
-    <section className="flex justify-end">
-      <div className="flex space-x-6 w-full pr-32 px-8 py-4 lg:pt-0 lg:w-auto ">
+    <section className="flex justify-start">
+      <div className="flex space-x-6 w-full pr-32 px-8 lg:px-16 py-4 lg:pt-0 lg:w-auto ">
         {" "}
         <Link href="https://github.com/TohDeKai" target="_blank">
           <svg
