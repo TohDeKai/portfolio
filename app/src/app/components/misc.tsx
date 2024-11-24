@@ -23,16 +23,16 @@ export default function Misc() {
           >
             <div className="flex justify-between leading-normal py-2 xl:px-4 ">
               <div className="flex gap-6 ">
-                <p className="text-sm font-bold text-slate-50 my-auto xl:group-hover:text-blue-500 transition-all duration-300">
+                <p className="font-bold text-slate-50 my-auto xl:group-hover:text-blue-500 transition-all duration-300">
                   {miscItem.title}
                 </p>
               </div>
-              <h5 className="text-xs font-extralight tracking-tight text-slate-400 xl:group-hover:text-slate-50 transition-all duration-30">
+              <h5 className="text-sm font-extralight tracking-tight text-slate-400 xl:group-hover:text-slate-50 transition-all duration-30">
                 {miscItem.date}
               </h5>
             </div>
             {miscItem.description.trim() !== "" && (
-              <div className="mb-2 font-extralight text-xs">
+              <div className="mb-2 font-extralight text-sm">
                 <ul className="list-disc list-inside">
                   <li className="pl-4 font-normal text-slate-400 xl:group-hover:text-slate-50 transition-all duration-30">
                     {miscItem.description}

@@ -7,7 +7,7 @@ export default function About() {
         </h1>
         <hr className=" border-t-2 border-blue-300 my-auto ml-4 flex-grow" />
       </div>
-      <p className="text-left font-normal text-gray-500 dark:text-gray-400">
+      <p className="text-sm md:text-base text-left font-normal text-gray-500 dark:text-gray-400">
         Back in 2020, I had the opportunity to develop a landing page during my
         UI/UX internship at Calibrate. This experience ignited my passion for
         coding, leading me to pursue a Bachelor&apos;s degree in Computing.
@@ -29,20 +29,4 @@ export default function About() {
       </p>
     </section>
   );
-}
-
-{
-  /* <section className="flex justify-end">
-  <div className="w-full md:pr-32 px-8 lg:px-16 pt-8 py-4 lg:pt-20 flex flex-col">
-    <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-blue-700 md:text-5xl lg:text-6xl">
-      Toh De Kai
-    </h1>
-    <h2 className="mb-4 text-xl font-normal tracking-normal leading-none text-white md:text-3xl lg:text-4xl">
-      Product Driven Engineer
-    </h2>
-    <p className="lg:mb-8 text-lg font-light text-slate-400 lg:text-xl">
-      Creating intuitive and impactful digital solutions
-    </p>
-  </div>
-</section>; */
 }

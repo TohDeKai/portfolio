@@ -27,22 +27,22 @@ export default function Experience() {
           target="_blank"
           className="py-2 rounded-xl shadow md:flex-row w-full xl:py-4 transition-all duration-300 group xl:hover:bg-slate-700"
         >
-          <div className="flex flex-col xl:flex-row justify-between leading-normal xl:px-4 my-2">
-            <p className="text-xl whitespace-nowrap font-bold text-slate-50 my-auto xl:group-hover:text-blue-500 transition-all duration-300">
+          <div className="flex flex-col xl:flex-row leading-normal xl:px-4 my-2">
+            <p className="text-lg whitespace-nowrap font-bold text-slate-50 my-auto xl:group-hover:text-blue-500 transition-all duration-300">
               {experience.company}
             </p>
-            <div className="flex w-full justify-between xl:pl-4">
-              <p className="text-sm font-light text-slate-400 my-auto xl:group-hover:text-blue-300 transition-all duration-300">
+            <div className="text-sm flex w-full justify-between items-center xl:pl-4">
+              <p className=" font-light text-slate-400 my-auto xl:group-hover:text-blue-300 transition-all duration-300">
                 {experience.role}
               </p>
 
-              <h5 className="text-xs font-extralight tracking-tight text-slate-400 my-auto xl:group-hover:text-slate-50 transition-all duration-300">
+              <h5 className=" font-extralight tracking-tight text-slate-400 my-auto xl:group-hover:text-slate-50 transition-all duration-300">
                 {experience.duration}
               </h5>
             </div>
           </div>
-          <div className="mb-3 xl:px-4 font-normal text-sm text-slate-400 xl:group-hover:text-slate-50 transition-all duration-300">
-            <ul className="list-disc list-inside space-y-2">
+          <div className="mb-3 xl:px-4 font-normal text-slate-400 xl:group-hover:text-slate-50 transition-all duration-300">
+            <ul className="text-sm list-disc list-inside space-y-2">
               {experience.points.map((point, pointIndex) => (
                 <li key={pointIndex}>{point}</li>
               ))}

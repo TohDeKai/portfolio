@@ -39,7 +39,7 @@ export default function Projects() {
 
             <div className="flex flex-col pt-4 xl:pt-0 xl:w-2/3 xl:pl-4 justify-start leading-normal">
               <div className="flex flex-row gap-3 pb-2">
-                <h5 className="text-xl font-bold tracking-tight text-slate-50 xl:group-hover:text-blue-500 transition-all duration-300">
+                <h5 className="font-bold tracking-tight text-lg text-slate-50 xl:group-hover:text-blue-500 transition-all duration-300">
                   {project.title}
                 </h5>
                 <svg
@@ -59,7 +59,7 @@ export default function Projects() {
                 </svg>
               </div>
 
-              <p className="pb-2text-left font-normal text-slate-400 xl:group-hover:text-slate-50 transition-all duration-300">
+              <p className="pb-2 text-left text-sm font-normal text-slate-400 xl:group-hover:text-slate-50 transition-all duration-300">
                 {project.description}
               </p>
               <div className="flex flex-wrap">
