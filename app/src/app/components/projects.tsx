@@ -24,9 +24,9 @@ export default function Projects() {
           key={index}
           href={project.link}
           target="_blank"
-          className="py-2 rounded-xl shadow md:flex-row w-full xl:py-4 transition-all duration-300 group hover:bg-slate-700"
+          className="py-2 rounded-xl shadow md:flex-row w-full xl:py-4 transition-all duration-300 group xl:hover:bg-slate-700"
         >
-          <div className="flex flex-col xl:flex-row justify-between leading-normal xl:px-4 my-2 p-2">
+          <div className="flex flex-col xl:flex-row justify-between leading-normal xl:px-4 my-2">
             <div className="object-cover xl:w-1/3">
               <Image
                 src={project.imageSrc}
@@ -37,13 +37,13 @@ export default function Projects() {
               />
             </div>
 
-            <div className="flex flex-col xl:w-2/3 xl:pl-4 justify-start leading-normal">
+            <div className="flex flex-col pt-4 xl:pt-0 xl:w-2/3 xl:pl-4 justify-start leading-normal">
               <div className="flex flex-row gap-3 pb-2">
-                <h5 className="text-xl font-bold tracking-tight text-slate-50 group-hover:text-blue-500 transition-all duration-300">
+                <h5 className="text-xl font-bold tracking-tight text-slate-50 xl:group-hover:text-blue-500 transition-all duration-300">
                   {project.title}
                 </h5>
                 <svg
-                  className="w-[14px] h-[14px] my-auto text-slate-50 group-hover:text-blue-300 transition-all duration-300"
+                  className="w-[14px] h-[14px] my-auto text-slate-50 xl:group-hover:text-blue-300 transition-all duration-300"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -59,14 +59,14 @@ export default function Projects() {
                 </svg>
               </div>
 
-              <p className="pb-2 text-left font-normal text-slate-400 group-hover:text-slate-50 transition-all duration-300">
+              <p className="pb-2text-left font-normal text-slate-400 xl:group-hover:text-slate-50 transition-all duration-300">
                 {project.description}
               </p>
               <div className="flex flex-wrap">
                 {project.skills.map((skill, skillIndex) => (
                   <span
                     key={skillIndex}
-                    className="border-blue-300 border-2 text-blue-300 text-xs font-medium me-2 px-4 py-1 mt-2 rounded-xl group-hover:text-slate-900 group-hover:bg-blue-300 transition-all duration-300"
+                    className="border-blue-300 border-2 text-blue-300 text-xs font-medium me-2 px-4 py-1 mt-2 rounded-xl xl:group-hover:text-slate-900 xl:group-hover:bg-blue-300 transition-all duration-300"
                   >
                     {skill}
                   </span>
