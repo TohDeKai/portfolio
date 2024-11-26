@@ -2,6 +2,7 @@
 type MenuItem = {
   title: string;
   link: string;
+  openInNewTab?: boolean;
 };
 
 type NavProps = {
@@ -18,6 +19,7 @@ export default function Nav({ menuItems }: NavProps) {
               <a
                 href={menuItem.link}
                 className="inline-flex items-center py-3 rounded-xl"
+                target={menuItem.openInNewTab ? "_blank" : "_self"}
               >
                 <hr className="w-10 h-0.5 bg-slate-500 border-0 rounded group-hover:w-40 transition-all duration-300 group-hover:bg-blue-300" />
                 <p className="pl-8 text-sm text-slate-500 group-hover:text-blue-500 uppercase">

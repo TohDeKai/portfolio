@@ -12,6 +12,11 @@ const menuItems = [
   { title: "Experience", link: "#experience" },
   { title: "Projects", link: "#projects" },
   { title: "Misc", link: "#misc" },
+  {
+    title: "Resume",
+    link: "/docs/Toh De Kai - Resume.pdf",
+    openInNewTab: true,
+  },
 ];
 
 export default function Home() {
