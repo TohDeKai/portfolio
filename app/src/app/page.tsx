@@ -26,9 +26,7 @@ export default function Home() {
         <div className="">
           <Self />
           <SocMed />
-          <div className="hidden xl:block">
-            <Nav menuItems={menuItems} />
-          </div>
+          <Nav menuItems={menuItems} />
         </div>
       </div>
       <div className="bg-slate-950 w-full xl:relative h-full xl:w-1/2 xl:top-0 xl:left-1/2">
