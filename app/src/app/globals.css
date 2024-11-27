@@ -31,3 +31,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.custom-cursor {
+  position: fixed;
+  box-shadow: 0 0 400px 100px rgba(231, 19, 33, 0.314);
+  pointer-events: none;
+  animation: glow 1.5s infinite ease-in-out;
+  z-index: 1; /* Ensure it stays above other content */
+}

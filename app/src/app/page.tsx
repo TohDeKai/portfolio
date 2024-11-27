@@ -6,27 +6,33 @@ import Projects from "./components/projects";
 import Misc from "./components/misc";
 import SocMed from "./components/socmed";
 import Footer from "./components/footer";
+import GlowingCursor from "./components/glowingCursor";
 
 const menuItems = [
   { title: "About", link: "#about" },
   { title: "Experience", link: "#experience" },
   { title: "Projects", link: "#projects" },
   { title: "Misc", link: "#misc" },
+  {
+    title: "Resume",
+    link: "/docs/Toh De Kai - Resume.pdf",
+    openInNewTab: true,
+  },
 ];
 
 export default function Home() {
   return (
-    <main className="selection:bg-cyan-400 selection:text-slate-700">
-      <div className="bg-slate-950 w-full xl:fixed xl:w-1/2 xl:h-full xl:top-0 xl:left-0 flex xl:items-start xl:justify-end">
+    <main className="selection:bg-primary selection:text-black">
+      <GlowingCursor />
+
+      <div className="bg-bg w-full xl:fixed xl:w-1/2 xl:h-full xl:top-0 xl:left-0 flex xl:items-start xl:justify-end">
         <div className="">
           <Self />
           <SocMed />
-          <div className="hidden xl:block">
-            <Nav menuItems={menuItems} />
-          </div>
+          <Nav menuItems={menuItems} />
         </div>
       </div>
-      <div className="bg-slate-950 w-full xl:relative h-full xl:w-1/2 xl:top-0 xl:left-1/2">
+      <div className="bg-bg w-full xl:relative h-full xl:w-1/2 xl:top-0 xl:left-1/2">
         <div className="w-full xl:w-11/12">
           <About />
           <Experience />
