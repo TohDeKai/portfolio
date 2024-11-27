@@ -6,6 +6,7 @@ import Projects from "./components/projects";
 import Misc from "./components/misc";
 import SocMed from "./components/socmed";
 import Footer from "./components/footer";
+import GlowingCursor from "./components/glowingCursor";
 
 const menuItems = [
   { title: "About", link: "#about" },
@@ -22,6 +23,8 @@ const menuItems = [
 export default function Home() {
   return (
     <main className="selection:bg-primary selection:text-black">
+      <GlowingCursor />
+
       <div className="bg-bg w-full xl:fixed xl:w-1/2 xl:h-full xl:top-0 xl:left-0 flex xl:items-start xl:justify-end">
         <div className="">
           <Self />
