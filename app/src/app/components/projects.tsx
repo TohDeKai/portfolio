@@ -1,5 +1,6 @@
 import Image from "next/image";
 import projectsData from "../../../../app/public/data/projects.json";
+import { LuExternalLink } from "react-icons/lu";
 
 interface ProjectData {
   title: string;
@@ -38,25 +39,11 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-col pt-4 xl:pt-0 xl:w-2/3 xl:pl-4 justify-start leading-normal">
-              <div className="flex flex-row gap-3 pb-2">
+              <div className="flex flex-row gap-3 pb-2 items-center ">
                 <h5 className="font-bold tracking-tight text-lg text-slate-50 xl:group-hover:text-blue-500 transition-all duration-300">
                   {project.title}
                 </h5>
-                <svg
-                  className="w-[14px] h-[14px] my-auto text-slate-50 xl:group-hover:text-blue-300 transition-all duration-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 18 18"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="3"
-                    d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"
-                  />
-                </svg>
+                <LuExternalLink />
               </div>
 
               <p className="pb-2 text-left text-sm font-normal text-slate-400 xl:group-hover:text-slate-50 transition-all duration-300">
