@@ -1,13 +1,11 @@
 export default function About() {
   return (
     <section id="about" className="w-full px-8 pt-20 flex flex-col xl:px-2">
-      <div className="flex pb-4 md:hidden">
-        <h1 className="flex-shrink-0 font-bold text-2xl text-blue-700">
-          About
-        </h1>
-        <hr className=" border-t-2 border-blue-300 my-auto ml-4 flex-grow" />
+      <div className="flex pb-4 xl:hidden">
+        <h1 className="flex-shrink-0 font-bold text-2xl text-primary">About</h1>
+        <hr className=" border-t-2 border-primary-light my-auto ml-4 flex-grow" />
       </div>
-      <p className="text-sm md:text-base text-left font-normal text-gray-500 dark:text-gray-400">
+      <p className="text-sm md:text-base text-left font-normal text-text-secondary">
         Back in 2020, I had the opportunity to develop a landing page during my
         UI/UX internship at Calibrate. This experience ignited my passion for
         coding, leading me to pursue a Bachelor&apos;s degree in Computing.

@@ -10,31 +10,31 @@ export default function Misc() {
   return (
     <section id="misc" className="w-full px-8 flex flex-col xl:px-0">
       <div className="flex py-2">
-        <h1 className="flex-shrink-0 font-bold text-2xl  text-blue-500">
+        <h1 className="flex-shrink-0 font-bold text-2xl text-primary">
           Icing On Top
         </h1>
-        <hr className="border-t-2 border-blue-300 my-auto ml-4 flex-grow" />
+        <hr className="border-t-2 border-primary-light my-auto ml-4 flex-grow" />
       </div>
       <div className="flex flex-col ">
         {miscData.map((miscItem: MiscData, index: number) => (
           <a
             key={index}
-            className="rounded-xl shadow md:flex-row w-full group xl:hover:bg-slate-700 transition-all duration-300"
+            className="rounded-xl shadow md:flex-row w-full group xl:hover:bg-secondary transition-all duration-300"
           >
             <div className="flex justify-between leading-normal py-2 xl:px-4 ">
               <div className="flex gap-6 ">
-                <p className="font-bold text-slate-50 my-auto xl:group-hover:text-blue-500 transition-all duration-300">
+                <p className="font-bold text-text my-auto xl:group-hover:text-primary transition-all duration-300">
                   {miscItem.title}
                 </p>
               </div>
-              <h5 className="text-sm font-extralight tracking-tight text-slate-400 xl:group-hover:text-slate-50 transition-all duration-30">
+              <h5 className="text-sm font-extralight tracking-tight text-text-secondary xl:group-hover:text-text transition-all duration-30">
                 {miscItem.date}
               </h5>
             </div>
             {miscItem.description.trim() !== "" && (
               <div className="mb-2 font-extralight text-sm">
                 <ul className="list-disc list-inside">
-                  <li className="pl-4 font-normal text-slate-400 xl:group-hover:text-slate-50 transition-all duration-30">
+                  <li className="pl-4 font-normal text-text-secondary xl:group-hover:text-text transition-all duration-30">
                     {miscItem.description}
                   </li>
                 </ul>

@@ -27,8 +27,8 @@ export default function Nav({ menuItems }: NavProps) {
                 href={menuItem.link}
                 className="inline-flex items-center py-3 rounded-xl"
               >
-                <hr className="w-10 h-0.5 bg-slate-500 border-0 rounded group-hover:w-40 transition-all duration-300 group-hover:bg-blue-300" />
-                <p className="pl-8 text-sm text-slate-500 group-hover:text-blue-500 uppercase">
+                <hr className="w-10 h-0.5 bg-text-secondary border-0 rounded group-hover:w-40 transition-all duration-300 group-hover:bg-primary-light" />
+                <p className="pl-8 text-sm text-text-secondary group-hover:text-primary uppercase">
                   {menuItem.title}
                 </p>
               </a>
@@ -40,30 +40,30 @@ export default function Nav({ menuItems }: NavProps) {
       {/* Mobile Hamburger Menu */}
       <LuMenu
         size={30}
-        className="fixed bg-white text-slate-500 p-1 rounded-md top-5 right-8 xl:hidden"
+        className="fixed bg-text text-secondary p-1 rounded-md top-5 right-8 xl:hidden"
         onClick={() => setIsOpen(!isOpen)}
       />
 
       {/* Menu Overlay and Content */}
       <div
         className={`fixed inset-0 z-10 transition-all duration-300 ${
-          isOpen ? "bg-black bg-opacity-50 backdrop-blur-sm" : "bg-transparent"
+          isOpen ? " bg-bg bg-opacity-50 backdrop-blur-sm" : "bg-transparent"
         }`}
         onClick={() => setIsOpen(false)} // Close menu when clicking on the background
         style={{ pointerEvents: isOpen ? "auto" : "none" }} // Disable clicks when closed
       ></div>
 
       <div
-        className={`fixed top-0 right-0 h-full w-52 bg-slate-950 text-white p-4 rounded-md z-20 transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full w-1/2 bg-bg text-text p-4 rounded-md z-20 transform transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <LuX
           size={30}
-          className="fixed bg-white text-slate-500 p-1 rounded-md bottom-5 right-8 xl:hidden"
+          className="fixed bg-text text-secondary p-1 rounded-md bottom-5 right-8 xl:hidden"
           onClick={() => setIsOpen(!isOpen)}
         />
-        <ul className="space-y-8 text-xs">
+        <ul className="space-y-8 text-xs sm:text-base">
           {menuItems.map((menuItem, index) => (
             <li key={index}>
               <a
