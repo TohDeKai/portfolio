@@ -2,7 +2,7 @@
   {
     "company": "Kovalee",
     "role": "Software Engineer Intern",
-    "duration": "FEB 2024 - PRESENT",
+    "duration": "FEB - JUL 2024",
     "points": [
       "Spearheaded the development of a partner dashboard, collaborating closely with the data team to integrate Snowflake queries into API endpoints and build a dashboard using Astro, React, and Tailwind CSS.",
       "Refactored API endpoints to use functions from the core library and migrated from a monolithic server to a microservice architecture.",
@@ -10,7 +10,7 @@
       "Implemented UI and created reusable components for multiple products using React, TypeScript, and TailwindCSS.",
       "Implemented and deployed cron jobs and web services on Render."
     ],
-    "skills": ["TypeScript", "Node.js", "Tailwind CSS"],
+    "skills": ["AWS", "Node.js", "ReactJS", "Tailwind CSS", "TypeScript"],
     "link": "https://www.kovalee.app"
   },
   {
@@ -22,7 +22,7 @@
       "Conducted website maintenance and effectively resolved bugs to ensure smooth functionality.",
       "Introduced Git as a source-control system and Trello for more efficient project management."
     ],
-    "skills": ["HTML", "CSS", "JavaScript"],
+    "skills": ["CSS", "HTML", "JavaScript"],
     "link": "https://ids.nus.edu.sg",
     "recommendationLink": "https://www.linkedin.com/in/tohdekai/details/recommendations/"
   },
@@ -36,7 +36,7 @@
       "Orchestrated automated web crawling across 20+ news sites daily by building Scrapy spiders to crawl news headlines and articles and streamlined article processing into a uniform format using NLP techniques like lemmatization, tokenization tagging, and stopword removal.",
       "Built REST APIs using FastAPI, integrating data from DynamoDB, to create a tailored EDM editor essential for internal teams."
     ],
-    "skills": ["Python", "AWS", "MongoDB", "FastAPI"],
+    "skills": ["AWS", "FastAPI", "MongoDB", "Python"],
     "link": "https://www.tech.gov.sg",
     "recommendationLink": "/docs/GovTech-Testimonial.pdf"
   },
@@ -48,7 +48,7 @@
       "Improved productivity through user interviews and research, optimizing onboarding practices.",
       "Enhanced organizational efficiency by transferring vital data from Google Sheets to Jira."
     ],
-    "skills": ["Jira", "Google Sheets"],
+    "skills": ["Google Sheets", "Jira"],
     "link": "https://corporate.zalora.com",
     "recommendationLink": "https://www.linkedin.com/in/tohdekai/details/recommendations/"
   },
@@ -62,7 +62,7 @@
       "Produced assets including product mockups to support marketing initiatives.",
       "Engaged in numerous user interviews and usability tests to extract insights for product enhancement."
     ],
-    "skills": ["WordPress", "Elementor", "Figma", "HTML", "CSS", "JavaScript"],
+    "skills": ["CSS", "Elementor", "Figma", "HTML", "JavaScript", "WordPress"],
     "link": "https://skilio.co",
     "recommendationLink": "/docs/Skilio-Testimonial.pdf"
   },
@@ -74,7 +74,7 @@
       "Developed landing page using HTML and CSS to attract more users.",
       "Spearheaded design and development of high-fidelity prototype of mobile application with Figma."
     ],
-    "skills": ["Figma", "HTML", "CSS", "JavaScript"],
+    "skills": ["CSS", "Figma", "HTML", "JavaScript"],
     "link": "https://lexlyhealth.webflow.io",
     "recommendationLink": "/docs/Calibrate-Testimonial.pdf"
   }
