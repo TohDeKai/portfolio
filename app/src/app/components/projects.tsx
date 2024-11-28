@@ -43,7 +43,7 @@ export default function Projects() {
                 <h5 className="font-bold tracking-tight text-lg ">
                   {project.title}
                 </h5>
-                <LuExternalLink />
+                <LuExternalLink size={18} />
               </div>
 
               <p className="pb-2 text-left text-sm font-normal text-text-secondary xl:group-hover:text-text transition-all duration-300">
