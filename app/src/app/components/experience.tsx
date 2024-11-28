@@ -1,6 +1,6 @@
 import React from "react";
 import experienceData from "../../../../app/public/data/experience.json";
-import { LuFileText } from "react-icons/lu";
+import { LuExternalLink, LuFileText } from "react-icons/lu";
 
 interface ExperienceData {
   company: string;
@@ -31,9 +31,11 @@ export default function Experience() {
           className="py-2 rounded-xl shadow md:flex-row w-full xl:py-4 transition-all duration-300 group xl:hover:bg-secondary"
         >
           <div className="flex flex-col xl:flex-row leading-normal xl:px-4 my-2">
-            <p className="text-lg whitespace-nowrap font-bold text-text my-auto xl:group-hover:text-primary transition-all duration-300">
+            <p className="flex items-center gap-2 text-lg whitespace-nowrap font-bold text-text my-auto xl:group-hover:text-primary transition-all duration-300">
               {experience.company}
+              <LuExternalLink size={18} />
             </p>
+
             <div className="text-sm flex w-full justify-between items-center xl:pl-4">
               <p className=" font-light text-text-secondary my-auto xl:group-hover:text-text transition-all duration-300">
                 {experience.role}
