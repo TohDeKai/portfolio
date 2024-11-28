@@ -23,7 +23,8 @@
       "Introduced Git as a source-control system and Trello for more efficient project management."
     ],
     "skills": ["HTML", "CSS", "JavaScript"],
-    "link": "https://ids.nus.edu.sg"
+    "link": "https://ids.nus.edu.sg",
+    "recommendationLink": "https://www.linkedin.com/in/tohdekai/details/recommendations/"
   },
   {
     "company": "GovTech",
@@ -36,7 +37,8 @@
       "Built REST APIs using FastAPI, integrating data from DynamoDB, to create a tailored EDM editor essential for internal teams."
     ],
     "skills": ["Python", "AWS", "MongoDB", "FastAPI"],
-    "link": "https://www.tech.gov.sg"
+    "link": "https://www.tech.gov.sg",
+    "recommendationLink": "/docs/GovTech-Testimonial.pdf"
   },
   {
     "company": "ZALORA",
@@ -47,7 +49,8 @@
       "Enhanced organizational efficiency by transferring vital data from Google Sheets to Jira."
     ],
     "skills": ["Jira", "Google Sheets"],
-    "link": "https://corporate.zalora.com"
+    "link": "https://corporate.zalora.com",
+    "recommendationLink": "https://www.linkedin.com/in/tohdekai/details/recommendations/"
   },
   {
     "company": "Skilio",
@@ -60,7 +63,8 @@
       "Engaged in numerous user interviews and usability tests to extract insights for product enhancement."
     ],
     "skills": ["WordPress", "Elementor", "Figma", "HTML", "CSS", "JavaScript"],
-    "link": "https://skilio.co"
+    "link": "https://skilio.co",
+    "recommendationLink": "/docs/Skilio-Testimonial.pdf"
   },
   {
     "company": "Lexly (Formerly Calibrate)",
@@ -71,6 +75,7 @@
       "Spearheaded design and development of high-fidelity prototype of mobile application with Figma."
     ],
     "skills": ["Figma", "HTML", "CSS", "JavaScript"],
-    "link": "https://lexlyhealth.webflow.io"
+    "link": "https://lexlyhealth.webflow.io",
+    "recommendationLink": "/docs/Calibrate-Testimonial.pdf"
   }
 ]
