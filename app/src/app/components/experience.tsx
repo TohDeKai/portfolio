@@ -62,32 +62,7 @@ export default function Experience() {
                 {skill}
               </span>
             ))}
-
-            {experience.recommendationLink && (
-              <>
-                <a
-                  href={experience.recommendationLink}
-                  target="_blank"
-                  className="hidden md:flex py-2 px-4 bg-text text-bg rounded-md text-xs mt-2 xl:text-sm md:ml-auto  gap-2 xl:hover:bg-primary xl:hover:text-text duration-300"
-                >
-                  <LuFileText className="h-4 w-4 xl:h-5 xl:w-5" />
-                  Recommendation
-                </a>
-              </>
-            )}
           </div>
-          {experience.recommendationLink && (
-            <>
-              <a
-                href={experience.recommendationLink}
-                target="_blank"
-                className="py-2 px-4 bg-text text-bg rounded-md text-xs flex gap-2 w-40 md:hidden"
-              >
-                <LuFileText className="h-4 w-4" />
-                Recommendation
-              </a>
-            </>
-          )}
         </a>
       ))}
     </section>
