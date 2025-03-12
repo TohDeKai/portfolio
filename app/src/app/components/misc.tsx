@@ -23,7 +23,7 @@ export default function Misc() {
           >
             <div className="flex justify-between leading-normal py-2 xl:px-4 ">
               <div className="flex gap-6 ">
-                <p className="font-bold text-text my-auto xl:group-hover:text-primary transition-all duration-300">
+                <p className="font-bold text-text text-sm my-auto xl:group-hover:text-primary transition-all duration-300">
                   {miscItem.title}
                 </p>
               </div>
