@@ -1,5 +1,19 @@
 [
   {
+    "title": "Price Tracker",
+    "imageSrc": "/static/images/crawler_1.png",
+    "description": "A freelance project that automates web crawling to fetch asset prices and export the data to a Google Sheet. Built with Python using Scrapy and deployed on AWS Lambda, with CloudWatch enabling automated execution.",
+    "skills": ["Python", "Scrapy", "AWS"],
+    "link": ""
+  },
+  {
+    "title": "Report Summary Telegram Bot",
+    "imageSrc": "/static/images/news_summary.png",
+    "description": "A freelance project that automates filtering Gmail emails, extracting PDF reports, and generating summaries using Python, Sumy, and Facebook's BART-Large-CNN model from Hugging Face. The summarized text is then delivered via a Telegram bot.",
+    "skills": ["Python", "PDFPlumber", "Sumy", "LLM"],
+    "link": ""
+  },
+  {
     "title": "HDB Pricing Visualisation",
     "imageSrc": "/static/images/hdb_viz.png",
     "description": "The project aims to help people make meaningful decisions regarding HDB transaction prices by providing them with a simple and easy way to compare and filter transactions and visualise the data.",
