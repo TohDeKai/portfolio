@@ -49,11 +49,11 @@ export default function Projects() {
               <p className="pb-2 text-left text-sm font-normal text-text-secondary xl:group-hover:text-text transition-all duration-300">
                 {project.description}
               </p>
-              <div className="flex flex-wrap">
+              <div className="flex flex-wrap gap-2">
                 {project.skills.map((skill, skillIndex) => (
                   <span
                     key={skillIndex}
-                    className="border-primary border-2 text-primary text-xs font-medium me-2 px-4 py-1 mt-2 rounded-xl xl:group-hover:text-black xl:group-hover:bg-primary transition-all duration-300"
+                    className="border-primary border-2 text-primary text-xs font-medium me-2 px-4 py-1 rounded-xl xl:group-hover:text-black xl:group-hover:bg-primary transition-all duration-300"
                   >
                     {skill}
                   </span>

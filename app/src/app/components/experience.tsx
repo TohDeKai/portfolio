@@ -53,7 +53,7 @@ export default function Experience() {
               ))}
             </ul>
           </div>
-          <div className="flex flex-wrap xl:px-4 pb-4 items-center">
+          <div className="flex flex-wrap gap-2 xl:px-4 pb-4 items-center">
             {experience.skills.map((skill, skillIndex) => (
               <span
                 key={skillIndex}
