@@ -1,4 +1,13 @@
-[
+[{
+    "company": "Shopee",
+    "role": "Software Engineer",
+    "duration": "JUL 2025 - Present",
+    "points": [
+      "Currently working on features for Shopee's Checkout Page on Web across different regions around the globe."
+    ],
+    "skills": ["ReactJS", "TypeScript", "Jotai"],
+    "link": "https://www.shopee.sg"
+  },
   {
     "company": "Kovalee",
     "role": "Software Engineer Intern",

@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Growing Engineer - Blog",
+    "imageSrc": "/static/images/growing_engineer.png",
+    "description": "A blog where I write technical articles to document my growth and try out new technologies.",
+    "skills": ["Writing", "Development", "Engineering Knowledge"],
+    "link": "https://substack.com/@dekaitoh"
+  },
+  {
     "title": "Price Tracker",
     "imageSrc": "/static/images/crawler_1.png",
     "description": "A freelance project that automates web crawling to fetch asset prices and export the data to a Google Sheet. Built with Python using Scrapy and deployed on AWS Lambda, with CloudWatch enabling automated execution.",
