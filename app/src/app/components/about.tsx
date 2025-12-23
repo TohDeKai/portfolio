@@ -23,7 +23,13 @@ export default function About() {
         <br></br>
         <br></br>
         When I&apos;m not at my desk, I like to keep myself busy through an
-        active lifestyle - aiming to complete a sub-5 hour marathon in 2025
+        active lifestyle - aiming to complete a sub{" "}
+        <s className="text-text-faint">5 hour</s> 1 hour 45 minutes{" "}
+        <s className="text-text-faint">marathon</s> half-marathon in{" "}
+        <s className="text-text-faint">2025</s> 2026
+        <br></br>
+        <br></br>
+        <i className="text-text-faint">Clearly missed my 2025 goals...</i>
       </p>
     </section>
   );

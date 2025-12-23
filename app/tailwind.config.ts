@@ -20,6 +20,7 @@ const config: Config = {
         },
         text: {
           DEFAULT: "#fdf0d5",
+          faint: "#524e45",
           secondary: "#A39B8A",
           black: "#000000",
         },
